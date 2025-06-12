@@ -1,0 +1,203 @@
+# Victor-e-Ana
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor & Ana</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #fff0f5;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #ffb6c1;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .timeline {
+      border-left: 3px solid #ffb6c1;
+      padding-left: 1rem;
+    }
+
+    .event {
+      margin-bottom: 1.5rem;
+    }
+
+    .event h3 {
+      color: #d6336c;
+    }
+
+    footer {
+      background: #ffb6c1;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555;
+      margin: 1.5rem 0;
+      border-left: 4px solid #d6336c;
+      padding-left: 1rem;
+      background: #ffe4ec;
+      border-radius: 5px;
+    }
+
+    .heart {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 2rem;
+      color: #d6336c;
+    }
+
+    .floating-heart {
+      position: fixed;
+      bottom: -50px;
+      font-size: 2rem;
+      animation: floatUp 4s linear forwards;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-100vh) scale(1.5); opacity: 0; }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VICTOR ALGARTE E ANA MELO</h1>
+    <p>NOSSO AMOR ETERNO</p>
+  </header>
+
+  <section>
+    <h2>Nossa História</h2>
+    <div class="timeline">
+      <div class="event">
+        <h3>2018 - Onde tudo começou</h3>
+        <p>Nos conhecemos na escola no 6º ano. Tivemos um namoro relâmpago no Dia dos Namorados. Lembro como se fosse ontem você me entregando a caixinha de bombons e eu correndo de você rs.</p>
+      </div>
+      <div class="event">
+        <h3>2019 a 2021 - Caminhos cruzados</h3>
+        <p>Continuamos na mesma escola até o 9º ano. Mais tarde, nos reencontramos no Ensino Médio brevemente.</p>
+      </div>
+      <div class="event">
+        <h3>2024 - Um breve momento nosso antes da hora certa</h3>
+        <p>No fim do 3º ano, te vi encostada no muro e meu coração te escolheu de novo. Mesmo sem saber, naquele instante, você já era meu destino.</p>
+      </div>
+      <div class="event">
+        <h3>2025 - Nosso recomeço</h3>
+        <p>Caímos na mesma sala do CFC. A conexão foi rápida e linda. No dia 08/03/2025, começamos a namorar oficialmente e, desde então, minha vida nunca mais foi a mesma. Hoje, ela tem sentido, tem cor, tem você.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Promessas Eternas</h2>
+    <ul>
+      <li>Prometo te amar intensamente em todos os dias da minha vida.</li>
+      <li>Prometo cuidar do teu coração com todo o carinho que ele merece.</li>
+      <li>Prometo estar contigo nos dias bons e, principalmente, nos dias difíceis.</li>
+      <li>Prometo fazer você sorrir, mesmo quando o mundo tentar te entristecer.</li>
+      <li>Prometo ser seu lar, seu refúgio, seu melhor amigo e amor para sempre.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Minhas Palavras Pra Você</h2>
+    <blockquote>
+      "Você me transformou, me mostrou o que é amar de verdade. Desde que entrou na minha vida, tudo ficou mais leve, mais bonito, mais cheio de sentido."
+    </blockquote>
+    <blockquote>
+      "Eu sou completamente apaixonado por cada detalhe seu. Seu sorriso ilumina meus dias e seu jeitinho me desmonta. Você é a mulher dos meus sonhos, a realidade mais linda que eu vivo."
+    </blockquote>
+    <blockquote>
+      "Meu amor por você é infinito, intenso, verdadeiro. Você é minha paz, meu caos bom, meu tudo."
+    </blockquote>
+  </section>
+
+  <section>
+    <h2>Final</h2>
+    <p>Amor da minha vida... você é meu sonho realizado. Nada neste mundo se compara ao que sinto por você. A cada batida do meu coração, ele grita o seu nome. Você é minha razão de viver, meu presente de Deus, a mulher que eu escolhi pra viver todos os meus dias.</p>
+    <div class="heart">❤️ Eu te amo, meu amor ❤️</div>
+  </section>
+
+  <footer>
+    <p>Feito com todo amor do mundo por Victor 💗</p>
+  </footer>
+
+  <audio id="pop-sound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_73999f1147.mp3"></audio>
+
+  <script>
+    const heartEmojis = ['❤️', '🤍'];
+    const sound = document.getElementById("pop-sound");
+
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("floating-heart");
+      heart.textContent = heartEmojis[Math.floor(Math.random() * heartEmojis.length)];
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = (Math.random() * 2 + 1) + "rem";
+      document.body.appendChild(heart);
+
+      heart.addEventListener('animationend', () => {
+        heart.remove();
+        sound.currentTime = 0;
+        sound.play();
+      });
+    }
+
+    let duration = 10000; // 10 segundos
+    let startTime = Date.now();
+    const interval = setInterval(() => {
+      if (Date.now() - startTime > duration) {
+        clearInterval(interval);
+        return;
+      }
+      createHeart();
+    }, 200);
+  </script>
+</body>
+</html>
